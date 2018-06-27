@@ -2,8 +2,8 @@
 <!-- this is comment -->
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.techarrosoluions</groupId>
-	<artifactId>techarrosolutions</artifactId>
+	<groupId>com.TecharroSoft</groupId>
+	<artifactId>TecharroSoft</artifactId>
 	<packaging>war</packaging>
 	<version>1.1-RELEASE</version>
 

@@ -16,7 +16,7 @@ $TOMCAT_HOME/bin/shutdown.sh 1>/dev/null 2>&1
 if [ -f $WAR_FILE_PATH ];then
     echo "deploying TecharroSoft application..."
     sleep 4
-    sshpass -p "ramesh" ssh $TOMCAT_USER@$TOMCAT_HOST
+    sshpass -p "Gamut" ssh $TOMCAT_USER@$TOMCAT_HOST
     scp  $WAR_FILE_PATH $TOMCAT_USER@$TOMCAT_HOST:$TOMCAT_HOME/webapps
 else
    echo "war file doesn't exist! Please check the build"
